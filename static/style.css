@@ -1,0 +1,18 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.root{
+  width: 100%;
+  height:99vh;
+}
+.root form {
+  padding: .2em;
+}
+.root form .row .col, textarea {
+  height: 92vh;
+}
